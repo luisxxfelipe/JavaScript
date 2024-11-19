@@ -12,3 +12,4 @@ console.log(`Meu nome é ${nome} ${sobrenome} e tenho ${idade} anos`)	// Interpo
 
 nome = nome + sobrenome
 console.log(nome)
+
