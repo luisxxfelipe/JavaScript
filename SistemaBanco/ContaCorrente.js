@@ -1,8 +1,10 @@
 export class ContaCorrente {
+    static numeroContas = 0;
     constructor(cliente, agencia, saldo = 0) {
         this._cliente = cliente;
         this.agencia = agencia;
         this._saldo = saldo; 
+        ContaCorrente.numeroContas += 1
     }
 
     set cliente(novoValor) {
